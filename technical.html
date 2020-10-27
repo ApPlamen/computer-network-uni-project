@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="bg">
+<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Language" content="bg">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>802.11n Безжични локални мрежи</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="assets/images/wifi.png">
+		<link rel="stylesheet" href="assets/css/master.css">
+		<link rel="stylesheet" href="assets/css/responsive.css">
+	</head>
+
+	<body class="wrap-nav-sidebar">
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your eiterience.</p>
+		<![endif]-->
+
+		<!------ Loader Start ------>
+		<div id="loader-overlay">
+			<div class="loader-wrapper">
+				<div class="alpha-dots">
+					<div class="alpha-child alpha-dot1"></div>
+					<div class="alpha-child alpha-dot2"></div>
+				</div>
+			</div>
+		</div>
+		<!------ Loader End ------>
+
+		<!------ Header Start ------>
+		<nav class="navbar-scrollspy navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+				<div class="container">
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
+						<ul class="nav navbar-right blue-nav nav-scrollspy-onepage" data-in="fadeInLeft">
+							<li class="logo"><a href="index.html">802.11n <i class="mdi mdi-wifi"></i></a></li>
+						</ul>
+					</div>
+					<!-- End Header Navigation -->
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="navbar-collapse collapse" id="navbar-menu" aria-expanded="false">
+						<ul class="nav navbar-nav navbar-right blue-nav nav-scrollspy-onepage" data-in="fadeInLeft">
+							<li><a href="index.html">Начало</a></li>
+							<li><a href="introduction.html">Какво е 802.11n?</a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Техническо описание</a>
+								<ul class="dropdown-menu">
+									<li class="active"><a href="technical.html">Техническо описание</a></li>
+									<li><a href="data-encoding.html">Кодиране на информацията</a></li>
+									<li><a href="number-antennas.html">Брой на антени</a></li>
+									<li><a href="data-rates.html">Скорост на данни</a></li>
+									<li><a href="frame-aggregation.html">Събиране на кадри</a></li>
+									<li><a href="backward-compatibility.html">Съвместимост с по-стари версии</a></li>
+								</ul>
+							</li>
+							<li><a href="comparison.html">Сравнение</a></li>
+							<li><a href="usage.html">Приложение</a></li>
+							<li><a href="sources.html">Източници</a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		<!------ Header End ------>
+
+		<!-- page-title-section start -->
+		<section class="title-hero-bg page-cover-bg" data-stellar-background-ratio="0.2">
+			<div class="container">
+				<div class="page-title text-center">
+					<h1><i class="mdi mdi-settings"></i> Техническо описание</h1>
+				</div>
+			</div>
+		</section>
+		<!-- page-title-section end -->
+
+		<!------ Blogs Start ------>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="blog-standard">
+							<h2>Техническо описание</h2>
+							<p>IEEE 802.11-2007 или IEEE 802.11n е изменение на IEEE 802.11-2007 и се основава на предишните 802.11 стандарти чрез добавяне на множество входови канали с множество изходи <i>(Multiple-Input Multiple-Output или MIMO)</i>, 40 MHz към физическия слой <i>(Physical layer или FMY)</i> на OSI модела и събиране в рамки <i>(frame aggregation)</i> към MAC <i>(Medium Access Control)</i> слоя.</p>
+							<p>MIMO е технология, която използва множество антени за съгласувано разпространяване на повече информация, отколкото е възможно, с помощта на само една антена. Един от начините да осигурява това е чрез мултиплексиране с пространствено разделение <i>(Spatial Division Multiplexing или SDM)</i>, което пространствено мултиплексира множество независими потоци от данни, прехвърлени едновременно в рамките на един спектрален канал на честотната лента. MIMO SDM може значително да увеличи пропускателната способност на данните, тъй като броят на разрешените пространствени потоци от данни се увеличава. Всеки пространствен поток изисква отделна антена както на предавателя, така и на приемника. В допълнение, технологията MIMO изисква отделна радиочестотна верига и аналогово-цифров преобразувател за всяка MIMO антена, което я прави по-скъпа за внедряване от не-MIMO системи.</p>
+							<p>Каналите, работещи с ширина на честотната лента от 40 MHz, са друга функция, включена в 802.11n. Това удвоява ширината на канала от 20 MHz, в предишните 802.11 PHY-и, и осигурява двойна скорост на предаване на данни в рамките на физичесия слой от OSI модела. Той може да бъде активиран както в 5GHz режим, така и в режим 2.4GHz. Така няма да пречи на друга 802.11 или не-802.11 <i>(като Bluetooth)</i> система, използваща същите честоти. Архитектурата MIMO, заедно с канали с по-широка честотна лента, предлагат увеличена скорост на физически трансфер в сравнение с 802.11a <i>(5GHz)</i> и 802.11g <i>(2.4GHz)</i>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!------ Blogs End ------>
+
+		<!------ Blogs Start ------>
+		<section class="pt-0">
+			<div class="container">
+				<div class="row">
+
+					<!-- Post Start -->
+					<div class="col-md-4">
+						<div class="post">
+							<div class="post-info">
+								<i class="mdi mdi-puzzle font-50px blue-icon"></i>
+								<h3><a href="data-encoding.html">Кодиране на информацията</a></h3>
+								<p>Предавателят и приемникът използват техники за предварително и последващо кодиране, за да постигнат капацитета на MIMO връзка…</p>
+								<a class="readmore dark-color" href="data-encoding.html"><span>Прочети повече</span></a>
+							</div>
+						</div>
+					</div>
+					<!-- Post End -->
+
+					<!-- Post Start -->
+					<div class="col-md-4">
+						<div class="post">
+							<div class="post-info">
+								<i class="mdi mdi-poll font-50px blue-icon"></i>
+								<h3><a href="number-antennas.html">Брой на антени</a></h3>
+								<p>Броят на едновременните потоци от данни е ограничен от минималния брой антени, използвани от двете страни на връзката. Въпреки това…</p>
+								<a class="readmore dark-color" href="number-antennas.html"><span>Прочети повече</span></a>
+							</div>
+						</div>
+					</div>
+					<!-- Post End -->
+					
+					<!-- Post Start -->
+					<div class="col-md-4">
+						<div class="post">
+							<div class="post-info">
+								<i class="mdi mdi-transfer font-50px blue-icon"></i>
+								<h3><a href="data-rates.html">Скорост на данни</a></h3>
+								<p>Ако приемем, че еднакви работни параметри на 802.11g мрежа постигат 54 мегабита в секунда (на отделен 20 MHz канал с една антена), 802.11n…</p>
+								<a class="readmore dark-color" href="data-rates.html"><span>Прочети повече</span></a>
+							</div>
+						</div>
+					</div>
+					<!-- Post End -->
+
+				</div>
+
+				<div class="row mt-50">
+
+					<!-- Post Start -->
+					<div class="col-md-4">
+						<div class="post">
+							<div class="post-info">
+								<i class="mdi mdi-blur-linear font-50px blue-icon"></i>
+								<h3><a href="frame-aggregation.html">Събиране на кадри</a></h3>
+								<p>Скоростта на данните на физическото ниво не съответства на пропускателната способност на потребителско ниво поради нужни на…</p>
+								<a class="readmore dark-color" href="frame-aggregation.html"><span>Прочети повече</span></a>
+							</div>
+						</div>
+					</div>
+					<!-- Post End -->
+					
+					<!-- Post Start -->
+					<div class="col-md-4">
+						<div class="post">
+							<div class="post-info">
+								<i class="mdi mdi-history font-50px blue-icon"></i>
+								<h3><a href="backward-compatibility.html">Съвместимост с по-стари версии</a></h3>
+								<p>Когато 802.11g беше обявен, за да сподели лентата със съществуващите устройства 802.11b, той включва…</p>
+								<a class="readmore dark-color" href="backward-compatibility.html"><span>Прочети повече</span></a>
+							</div>
+						</div>
+					</div>
+					<!-- Post End -->
+
+				</div>
+			</div>
+		</section>
+		<!------ Blogs End ------>
+
+		<!------ Footer Start ------>
+		<footer class="footer">
+			<div class="footer-main">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-5">
+							<div class="widget widget-text">
+								<h5 class="widget-title">Изработил</h5>
+								<p><b>Пламен Добрев</b></p>
+								<p>ТУ - София<br>
+									ФКСТ КСИ<br>
+									гр. 40 фак. № 121217051</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-2">
+							<div class="widget widget-links">
+								<h5 class="widget-title">Начало</h5>
+								<ul>
+									<li><a href="index.html">Начална страница</a></li>
+								</ul>
+							</div>
+							<div class="widget widget-links">
+								<h5 class="widget-title">Какво е</h5>
+								<ul>
+									<li><a href="introduction.html">Какво е 802.11n?</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-3">
+							<div class="widget widget-links">
+								<h5 class="widget-title">Техническо описание</h5>
+								<ul>
+									<li><a href="technical.html">Техническо описание</a></li>
+									<li><a href="data-encoding.html">Кодиране на информация</a></li>
+									<li><a href="number-antennas.html">Брой антени</a></li>
+									<li><a href="data-rates.html">Скорост на данни</a></li>
+									<li><a href="frame-aggregation.html">Събиране на кадри</a></li>
+									<li><a href="backward-compatibility.html">Съвместимост с по-стари версии</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-2">
+							<div class="widget widget-links">
+								<h5 class="widget-title">Други версии</h5>
+								<ul>
+								  <li><a href="comparison.html">Сравнение</a></li>
+								</ul>
+							</div>
+							<div class="widget widget-links">
+								<h5 class="widget-title">Приложения</h5>
+								<ul>
+									<li><a href="usage.html">Къде се използва?</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!------ Footer End ------>
+
+		<!-- GO TO TOP  -->
+		<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+		<!-- GO TO TOP End -->
+
+		<!------ Javascript Plugins ------>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/plugins.js"></script>
+		<script src="assets/js/validator.js"></script>
+		<script src="assets/js/master.js"></script>
+		<script src="assets/js/bootsnav.js"></script>
+		<!------ Javascript Plugins End ------>
+	</body>
+</html>
